@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>appointment</title>
+        <link rel="stylesheet" href="task1.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <section id="appointment">
+    <h2>Request an Appointment</h2>
+    <p>Fill out the form below to request a consultation.</p>
+    <form class="appointment-form" action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name"
+               autocomplete="name" required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone"
+               autocomplete="tel" required>
+        <label for="department">Choose Department</label>
+        <select id="department" name="department" required>
+            <option value="">Select a department</option>
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Orthopedics</option>
+            <option>Pediatrics</option>
+            <option>Ophthalmology</option>
+            <option>General Medicine</option>
+        </select>
+        <label for="date">Preferred Appointment Date</label>
+        <input type="date" id="date" name="date" required>
+        <label for="message">Reason for Appointment</label>
+        <textarea id="message" name="message"
+                  rows="4"></textarea>
+        <button type="submit">Submit Request</button>
+        <p class="note">
+            This form is for appointment requests, not emergencies.
+        </p>
+    </form>
+</section>
+</body>
+</html>

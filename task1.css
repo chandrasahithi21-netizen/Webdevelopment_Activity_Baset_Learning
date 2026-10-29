@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f8fb;
+    color: #263238;
+}
+header {
+    background: #087f8c;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+header h1 {
+    font-size: 32px;
+}
+nav {
+    background: #075966;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+nav a:hover,
+nav a:focus-visible {
+    background: #087f8c;
+    outline: 2px solid white;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #d9f3f4;
+}
+.hero h2 {
+    font-size: 34px;
+    color: #075966;
+    margin-bottom: 15px;
+}
+.hero p {
+    margin-bottom: 25px;
+}
+.button {
+    display: inline-block;
+    background: #087f8c;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button:hover {
+    background: #075966;
+}
+section {
+    padding: 45px 7%;
+}
+section h2 {
+    text-align: center;
+    color: #087f8c;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+.container {
+    display: grid;
+    gap: 22px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.13);
+}
+.card h3 {
+    color: #075966;
+    margin-bottom: 12px;
+}
+.hours,
+.contact-box {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.hours p,
+.contact-box p {
+    margin-bottom: 12px;
+}
+.appointment-form {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.appointment-form label {
+    display: block;
+    margin: 14px 0 6px;
+    font-weight: bold;
+}
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #9aaeb5;
+    border-radius: 5px;
+    font: inherit;
+    background: white;
+}
+.appointment-form input:focus,
+.appointment-form select:focus,
+.appointment-form textarea:focus {
+    outline: 3px solid #8bd4d8;
+    border-color: #075966;}
+.appointment-form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 13px;
+    background: #087f8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.note {
+    font-size: 14px;
+    margin-top: 15px;
+}
+footer {
+    background: #075966;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
